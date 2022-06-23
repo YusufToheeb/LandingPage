@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landingPage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"> <img src="images/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Refresh<br><span>The World</span></h2>
+                <p>Our purpose and passion have always been refreshment
+                </p>
+                <a href="#">View all Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/Coca.jpg" class="Coca">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/Coca002.jpg" onclick="imgSlider('images/Coca002.jpg'); changeBgColor('#913c36')"></li>
+            <li><img src="images/Coca003.jpg" onclick="imgSlider('images/Coca003.jpg'); changeBgColor('#000000')"></li>
+            <li><img src="images/Coca001.jpg" onclick="imgSlider('images/Coca001.jpg'); changeBgColor('#D61C4E')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href=""><img src="images/facebook.jpg"></a></li>
+            <li><a href=""><img src="images/twitter.jpg"></a></li>
+            <li><a href=""><img src="images/instagram.jpg"></a></li>
+        </ul>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
