@@ -166,3 +166,13 @@ header ul li a:hover {
 .sci li a img:hover {
     transform: translateX(40%);
 }
+
+@media (max-width: 991px) {
+    section {
+        padding: 40px;
+    }
+
+    header {
+        padding: 20px 40px;
+    }
+}
