@@ -167,6 +167,16 @@ header ul li a:hover {
     transform: translateX(40%);
 }
 
+button {
+    background-color: #111;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 5px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 991px) {
     section {
         padding: 40px;
